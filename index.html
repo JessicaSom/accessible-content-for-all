@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="utf-8">
   <title>The Pangolin</title>
   <meta name="viewport" content="width=<device-width,initial-scale=1">
 </head>
 <body>
-<header>
 
   <ul>
     <li>
@@ -13,22 +13,23 @@
       <a href="#">jump to navigation</a>
     </li>
   </ul>
+<header role="banner">
+  <h1>The Pangolin</h1>
+
+  <nav role="navigation">
+    <ol>
+      <li><a href="#">Pangolin</a></li>
+      <li><a href="#">Description</a></li>
+      <li><a href="#">Behaviour</a></li>
+      <li><a href="#">Conservation</a></li>
+    </ol>
+  </nav>
 </header>
 
-<nav>
-  <ol>
-    <li><a href="#">Pangolin</a></li>
-    <li><a href="#">Description</a></li>
-    <li><a href="#">Behaviour</a></li>
-    <li><a href="#">Conservation</a></li>
-  </ol>
-</nav>
-
-<h1>The Pangolin</h1>
-
+<main role="main">
 <article>
   <img src="pangolin.jpg" alt="pangolin">
-  <h1>Description</h1>
+  <h2>Description</h2>
   <p>Some countries where pangolins are found</p>
   <ol>
     <li>Botswana</li>
@@ -53,6 +54,7 @@
   <a href="https://en.wikipedia.org/wiki/Pangolin#Conservation" aria-label="Read more about Pangolin conservation">Read more</a>
 </article>
 
+</main>
 <footer>
   <small>© 1821 Pangolin</small>
 </footer>
